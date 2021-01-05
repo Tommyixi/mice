@@ -12,8 +12,6 @@ D2(fit1, fit0 = NULL, use = "wald")
 \item{fit0}{An object of class \code{mira}, produced by \code{with()}. The
 model in \code{fit0} is a nested within \code{fit1}. The default null
 model \code{fit0 = NULL} compares \code{fit1} to the intercept-only model.}
-
-\item{use}{A character string denoting Wald- or likelihood-based based tests. Can be either \code{"wald"} or \code{"likelihood"}. Only used if \code{method="D2"}.}
 }
 \description{
 The D2-statistic pools test statistics from the repeated analyses.
